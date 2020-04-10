@@ -1,0 +1,215 @@
+  @media only screen and (min-width: 376px)
+  {
+    body
+    {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: hsl(0, 0%, 98%);
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.9375rem;
+      color: hsl(229, 6%, 66%);
+      font-weight: 400;
+
+    }
+    h3
+    {
+      font-weight: 600;
+      color: hsl(234, 12%, 34%);
+      font-size: 1.3rem;
+    }
+
+    .head
+    {
+      font-weight: 200;
+      margin: 50px auto 0;
+      font-size: 2.2rem;
+    }
+    .head-1
+    {
+      font-weight: 600;
+      color: hsl(234, 12%, 34%);
+      margin-top: 0;
+      font-size: 2.2rem;
+    }
+    .header
+    {
+      width: 40%;
+      margin: auto;
+    }
+    .middle-container
+    {
+      display:flex;
+      flex-direction: row;
+      align-items:center;
+      margin: 0 ;
+      padding: 0;
+      height: 650px;
+      margin-top: 60px;
+     justify-content: center;
+
+    }
+    .column
+    {
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      height: 650px;
+      justify-content: center;
+    }
+
+    .center
+    {
+      margin: 0 30px;
+    }
+
+    .cards
+    {
+      display: inline-block;
+      position:relative;
+      background-color: #ffffff;
+      width: 350px;
+      height: 250px;
+      text-align: left;
+      border-radius: 10px;
+      box-shadow: 10px 10px 20px hsl(0, 0%, 92%);
+    }
+
+    .card-team-builder
+    {
+    margin-bottom: 30px;
+    }
+
+    .img-card
+    {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+    }
+    .card-text
+    {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .card-desc
+    {
+      line-height: 2;
+    }
+    .horizontal-rule
+    {
+      margin: 0;
+      border: solid 4px;
+      border-bottom: none;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .karma-rule{color: hsl(34, 97%, 64%);}
+    .supervisor-rule{color: hsl(180, 62%, 55%);}
+    .calculator-rule{color: hsl(212, 86%, 64%);}
+    .team-builder-rule{color: hsl(0, 78%, 62%);}
+
+
+    .attribution { font-size: 11px; text-align: center; margin-top: 60px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  }
+
+  @media only screen and (max-width: 375px)
+  {
+    body
+    {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: hsl(0, 0%, 98%);
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.8rem;
+      color: hsl(229, 6%, 66%);
+      font-weight: 400;
+
+    }
+    h3
+    {
+      font-weight: 600;
+      color: hsl(234, 12%, 34%);
+      font-size: 1.3rem;
+    }
+
+    .center
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .head
+    {
+      font-weight: 200;
+      margin: 80px auto 0;
+      font-size: 1.6rem;
+    }
+    .head-1
+    {
+      font-weight: 600;
+      color: hsl(234, 12%, 34%);
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+    .header
+    {
+      width: 80%;
+      margin:0 auto 80px;
+    }
+    .cards
+    {
+      margin: 0 auto;
+      display: inline-block;
+      position:relative;
+      background-color: #ffffff;
+      width: 85%;
+      height: 220px;
+      text-align: left;
+      border-radius: 10px;
+      box-shadow: 10px 10px 20px hsl(0, 0%, 92%);
+    }
+
+    .img-card
+    {
+      position: absolute;
+      right: 25px;
+      bottom: 25px;
+    }
+    .card-text
+    {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 0;
+    }
+    .card-desc
+    {
+      line-height: 2;
+      margin-top: 7px;
+    }
+    .horizontal-rule
+    {
+      margin: 0;
+      border: solid 4px;
+      border-bottom: none;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .karma-rule{color: hsl(34, 97%, 64%);}
+    .supervisor-rule{color: hsl(180, 62%, 55%);}
+    .calculator-rule{color: hsl(212, 86%, 64%);}
+    .team-builder-rule{color: hsl(0, 78%, 62%);}
+    .card-team-builder
+    {
+      margin: 30px auto;
+    }
+    .card-calculator
+    {
+      margin-top: 30px;
+    }
+
+    .attribution { font-size: 11px; text-align: center; margin-top: 60px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  }
